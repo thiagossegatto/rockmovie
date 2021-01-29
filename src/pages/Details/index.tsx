@@ -106,8 +106,8 @@ function Details() {
       }
       <Modal isOpen={isOpenVideo} closeModal={setIsOpenVideo}>
         <object width="100%" height="100%">
-          <param name="movie" value={`http://www.youtube.com/v/${currentVideo}`} />
-          <embed src={`http://www.youtube.com/v/${currentVideo}`} type="application/x-shockwave-flash" />
+          <param name="movie" value={`//www.youtube.com/v/${currentVideo}`} />
+          <embed src={`//www.youtube.com/v/${currentVideo}`} type="application/x-shockwave-flash" />
         </object>
       </Modal>
     </>
